@@ -1,10 +1,10 @@
 allprojects {
     repositories {
         google()
-        mainCentral()
+        mavenCentral() // यहाँ स्पेलिंग बिल्कुल सही कर दी गई है!
     }
     
-    // यह जादुई नियम ग्रेडल को जबरदस्ती सही वर्जन पर रोक कर रखेगा
+    // यह नियम ग्रेडल को सही वर्शन्स पर रोक कर रखेगा
     configurations.all {
         resolutionStrategy {
             force("androidx.activity:activity:1.9.3")
