@@ -12,8 +12,8 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   
-  # यह 5.5.0 वर्जन आपके कोडेमैजिक बिल्ड को बिना किसी एरर के सीधे पास कराएगा
-  file_picker: 5.5.0
+  # यह वर्जन नए फ्लटर चैनल के साथ पूरी तरह कंपैटिबल है और इस एरर को जड़ से खत्म कर देगा
+  file_picker: 6.1.1
   provider: ^6.1.2
   image_picker: ^1.0.7
   share_plus: ^7.2.1
