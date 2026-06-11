@@ -1,6 +1,5 @@
-name: village_shop
-description: गाँव की दुकान - आपका अपना गाँव का बाजार
-
+name: shubh_kriski_kendra
+description: "A new Flutter project for Shubh Krishi Kendra."
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -11,17 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
   cupertino_icons: ^1.0.6
-  provider: ^6.1.1
-  shared_preferences: ^2.2.2
-  path_provider: ^2.1.1
-  file_picker: ^6.1.1
-  url_launcher: ^6.2.5
-  image_picker: ^1.0.5
-  intl: ^0.18.1
-  share_plus: ^7.2.1
-  qr_flutter: ^4.1.0
+  
+  # यहाँ हमने फ़्लटर के नए वर्शन्स के लिए इसे अपडेट कर दिया है
+  file_picker: ^8.0.0
 
 dev_dependencies:
   flutter_test:
@@ -30,7 +22,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  
+
+  # आपके एसेट्स फोल्डर का बिल्कुल सही रास्ता
   assets:
     - assets/images/
     - assets/data/
