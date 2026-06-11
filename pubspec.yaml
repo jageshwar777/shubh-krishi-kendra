@@ -12,8 +12,8 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   
-  # यह वर्जन नए फ्लटर चैनल के साथ पूरी तरह कंपैटिबल है और इस एरर को जड़ से खत्म कर देगा
-  file_picker: 6.1.1
+  # बिल्कुल लेटेस्ट वर्जन जो नए फ्लटर चैनल के साथ 100% कंपैटिबल है
+  file_picker: ^9.0.0
   provider: ^6.1.2
   image_picker: ^1.0.7
   share_plus: ^7.2.1
