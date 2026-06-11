@@ -1,7 +1,17 @@
 allprojects {
     repositories {
         google()
-        mavenCentral()
+        mainCentral()
+    }
+    
+    // यह जादुई नियम ग्रेडल को जबरदस्ती सही वर्जन पर रोक कर रखेगा
+    configurations.all {
+        resolutionStrategy {
+            force("androidx.activity:activity:1.9.3")
+            force("androidx.activity:activity-ktx:1.9.3")
+            force("androidx.core:core:1.13.1")
+            force("androidx.core:core-ktx:1.13.1")
+        }
     }
 }
 
