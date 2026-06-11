@@ -12,8 +12,11 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   
-  # यहाँ हमने फ़्लटर के नए वर्शन्स के लिए इसे अपडेट कर दिया है
+  # ये वो सारे ज़रूरी पैकेजेस हैं जो आपके कोड में इस्तेमाल हुए हैं:
   file_picker: ^8.0.0
+  provider: ^6.1.2
+  image_picker: ^1.1.2
+  share_plus: ^10.0.2
 
 dev_dependencies:
   flutter_test:
@@ -23,7 +26,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-  # आपके एसेट्स फोल्डर का बिल्कुल सही रास्ता
+  # आपके एसेट्स फोल्डर का रास्ता
   assets:
     - assets/images/
     - assets/data/
