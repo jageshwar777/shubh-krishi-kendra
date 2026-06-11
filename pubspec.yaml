@@ -12,8 +12,8 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   
-  # सुरक्षित और स्थिर वर्शन्स (Stable Versions)
-  file_picker: ^6.1.1
+  # यहाँ हमने 8.0.1 कर दिया है ताकि कोडेमैजिक जबरदस्ती नया पैकेज डाउनलोड करे
+  file_picker: 8.0.1
   provider: ^6.1.2
   image_picker: ^1.0.7
   share_plus: ^7.2.1
