@@ -1,5 +1,5 @@
 name: shubh_kriski_kendra
-description: "A new Flutter project for Shubh Krishi Kendra."
+description: "Shubh Krishi Kendra - Village Shop App"
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -10,18 +10,21 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.6
+  cupertino_icons: ^1.0.8
   
-  # बिल्कुल लेटेस्ट वर्जन जो नए फ्लटर चैनल के साथ 100% कंपैटिबल है
-  file_picker: ^9.0.0
+  # ✅ ये latest versions use करो
+  file_picker: ^8.0.0
   provider: ^6.1.2
-  image_picker: ^1.0.7
-  share_plus: ^7.2.1
+  image_picker: ^1.1.0
+  share_plus: ^10.0.0
+  url_launcher: ^6.3.0
+  qr_flutter: ^4.1.0
+  shared_preferences: ^2.3.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
